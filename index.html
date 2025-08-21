@@ -3,25 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Noticias de Utrera</title>
+  <title>Utrerahoy</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
-    header { background: #cc0000; color: white; padding: 20px; text-align: center; }
-    h1 { margin: 0; }
-    main { padding: 20px; }
-    article { background: white; padding: 15px; margin-bottom: 15px; border-radius: 5px; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      background: linear-gradient(to right, #F4C300, #D32F2F);
+      color: white;
+    }
+    header img {
+      height: 60px;
+      margin-right: 15px;
+    }
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+    nav {
+      background-color: #F4C300;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #000000;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #D32F2F;
+    }
+    .contenido {
+      padding: 20px;
+    }
+    footer {
+      background-color: #D32F2F;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Noticias de Utrera</h1>
-    <p>Actualidad y comunicación local</p>
+    <img src="utrerahoy_logo.jpg" alt="Logo Utrerahoy">
+    <h1>Utrerahoy</h1>
   </header>
-  <main>
-    <article>
-      <h2>Primera noticia</h2>
-      <p>Bienvenido a <b>Utrerahoy</b>. Aquí encontrarás las noticias y comunicados más importantes de Utrera y sus pedanías.</p>
-    </article>
-  </main>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Noticias</a>
+    <a href="#">Opinión</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <div class="contenido">
+    <h2>Bienvenido a Utrerahoy</h2>
+    <p>Medio digital local donde se publican noticias, comunicados y artículos de interés sobre la actualidad de Utrera y sus pedanías.</p>
+  </div>
+
+  <footer>
+    © 2025 Utrerahoy - Todos los derechos reservados
+  </footer>
 </body>
 </html>
